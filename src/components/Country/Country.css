@@ -12,3 +12,6 @@
 .visited{
     background-color: blueviolet;
 }
+.flag-container{
+    width: 100px;
+}

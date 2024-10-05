@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Country from "../Country/Country"
+import '../Country/Country.css'
 
 export default function Countries() {
 
@@ -15,9 +16,11 @@ export default function Countries() {
   return (
     <>
       <div>Countries:{countries.length}</div>
-      {
+     <div className="countries">
+     {
         countries.map(country=><Country country={country} key={country.id} ></Country>)
       }
+     </div>
     </>
   
   )

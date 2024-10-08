@@ -40,6 +40,7 @@ export default function Countries() {
           flags.map((flag,idx)=><img key={idx} src={flag}></img>)
         }
       </div>
+      {/* design all countries flags */}
      <div className="countries">
      {
         countries.map(country=><Country country={country} 
